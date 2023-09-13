@@ -1,0 +1,23 @@
+
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.total-unitario{
+    margin: 20px;
+}
+
+.carro{
+    height: 500px;
+}
+
+form input{
+    margin: 20px;
+}
+
+

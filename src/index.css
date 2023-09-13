@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(118, 185, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@font-face {
+    font-family: supermarket;
+    src: url(./assets//font/GentyDemo-Regular.otf);
+}
+
+h1{
+    font-family: supermarket;
+    font-size: 60px;
+}
+
+input{
+    height: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+button{
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(71, 168, 253);
+    color: white;
+    cursor: pointer;
+    transition: 500ms ease;
+}
+
+button:hover{
+    background-color:rgb(23, 147, 255);
+}
+
+.eliminar{
+    background-color: red;
+}
+
+.eliminar:hover{
+    background-color:rgb(182, 0, 0);
+}
+
+.total{
+    font-family: supermarket;
+    font-size: 50px;
+}
