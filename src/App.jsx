@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import "./App.css";
 import { useEffect } from "react";
-import carro from "./assets/carro.png";
+import carro from "./assets/carrito.png";
 
 function App() {
   const { register, handleSubmit } = useForm();
